@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Post from './components/MyPost'
-import Author from './components/MyAuthor'
-import PostsByTag from './components/PostsByTag'
-import AllPosts from './components/AllPosts'
+import Post from '@/components/Post'
+import Author from '@/components/Author'
+import PostsByTag from '@/components/PostsByTag'
+import AllPosts from '@/components/AllPosts'
 
 const routes = [
   { path: '/author/:username', 

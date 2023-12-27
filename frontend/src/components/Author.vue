@@ -15,7 +15,7 @@ import gql from 'graphql-tag'
 import PostList from '@/components/PostList'
 
 export default {
-  name: 'MyAuthor',
+  name: 'Author',
   components: {
     PostList,
   },
@@ -38,9 +38,8 @@ export default {
           postSet {
             title
             subtitle
-            publishDate
+            publishedDate
             published
-            metaDescription
             slug
             tags {
               name

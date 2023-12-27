@@ -8,7 +8,7 @@
           <span v-if="showAuthor">
             by <AuthorLink :author="post.author" />
           </span>
-          <div class="post__date">{{ displayableDate(post.publishDate) }}</div>
+          <div class="post__date">{{ displayableDate(post.publishedDate) }}</div>
         <p class="post__description">{{ post.metaDescription }}</p>
         <ul>
           <li class="post__tags" v-for="tag in post.tags" :key="tag.name">

@@ -20,9 +20,8 @@ export default {
       allPosts {
         title
         subtitle
-        publishDate
+        publishedDate
         published
-        metaDescription
         slug
         author {
           user {

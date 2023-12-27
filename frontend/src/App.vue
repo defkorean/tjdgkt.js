@@ -2,7 +2,7 @@
     <div id="app">
         <header>
           <router-link to="/">
-            <h1>Awesome Blog</h1>
+            <h1>tjdgkt.js</h1>
           </router-link>
         </header>
         <router-view />
@@ -10,6 +10,9 @@
 </template>
 
 <script>
+export default {
+  name: 'App',
+}
 </script>
 
 <style>

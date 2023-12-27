@@ -10,6 +10,7 @@
   "dependencies": {
     "@apollo/client": "^3.8.8",
     "@vue/apollo-composable": "^4.0.0-beta.12",
+    "@vue/apollo-option": "^4.0.0-beta.12",
     "core-js": "^3.8.3",
     "graphql": "^16.8.1",
     "graphql-tag": "^2.12.6",
@@ -38,7 +39,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
   },
   "browserslist": [
     "> 1%",

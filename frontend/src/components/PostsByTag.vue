@@ -26,9 +26,8 @@ export default {
         postsByTag(tag: $tag) {
           title
           subtitle
-          publishDate
+          publishedDate
           published
-          metaDescription
           slug
           author {
             user {

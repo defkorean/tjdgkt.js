@@ -2,7 +2,7 @@
   <div class="post" v-if="post">
       <h2>{{ post.title }}: {{ post.subtitle }}</h2>
       By <AuthorLink :author="post.author" />
-      <div>{{ displayableDate(post.publishDate) }}</div>
+      <div>{{ displayableDate(post.publishedDate) }}</div>
     <p class="post__description">{{ post.metaDescription }}</p>
     <article>
       {{ post.body }}
@@ -21,7 +21,7 @@ import gql from 'graphql-tag'
 import AuthorLink from '@/components/AuthorLink'
 
 export default {
-  name: 'MyPost',
+  name: 'Post',
   components: {
     AuthorLink,
   },
@@ -36,8 +36,7 @@ export default {
           postBySlug(slug: $slug) {
             title
             subtitle
-            publishDate
-            metaDescription
+            publishedDate
             slug
             body
             author {
