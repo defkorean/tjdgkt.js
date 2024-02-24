@@ -5,6 +5,9 @@
             <h1>tjdgkt.js</h1>
           </router-link>
         </header>
+        <body>
+          what does tjdgkt.js mean? it is simply my korean name written out using the english keyboard. i decided to go with this for a personalised blogging experience.
+        </body>
         <router-view />
     </div>
 </template>
